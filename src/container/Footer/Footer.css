@@ -1,0 +1,13 @@
+.app__footer{
+    /* border: 10px dotted blueviolet; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+
+    z-index: 1;
+    padding-top: 0;
+    background-color: var(--color-black);
+}   
