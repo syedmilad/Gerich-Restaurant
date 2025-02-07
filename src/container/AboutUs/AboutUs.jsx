@@ -10,7 +10,6 @@ const AboutUs = () => (
   >
     <div
       className="app__aboutus-overlay flex__center"
-      style={{ border: "1px solid white" }}
     >
       <img src={images.G} alt="g letter" />
     </div>

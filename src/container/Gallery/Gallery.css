@@ -4,7 +4,7 @@
 
     padding: 4rem 0 4rem 6rem;
     background-color: var(--color-black);
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .app__gallery-content{
@@ -16,7 +16,7 @@
 
     margin-right: 2rem;
     min-width: 500px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .app__gallery-content button{
@@ -49,7 +49,7 @@
     height: 447px;
     margin-right: 2rem;
 
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .gallery__image-icon{

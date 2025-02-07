@@ -8,7 +8,6 @@ const Chef = () => (
   <div
     className="app__bg app__wrapper section__padding"
     id="chef"
-    style={{border: '1px solid white'}}
   >
     <div className="app__wrapper_img app__wrapper-img_reverse">
       <img src={images.chef} alt="chef" />
