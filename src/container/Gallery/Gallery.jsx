@@ -17,6 +17,7 @@ const Gallery = () => {
   const scroll = (direction) =>{
     const {current} = imageRef;
     console.log("direction=>",direction,current,current.scrollLeft)
+
     if (direction === 'left') {
       current.scrollLeft -= 300;
     } else {
@@ -35,7 +36,7 @@ const Gallery = () => {
       </p>
       <button className="custom__button">View More</button>
     </div>
-    <div className="app__gallery-images">
+    <div className="app__gallery-images" >
       <div className="app__gallery-images_container"  ref={imageRef} >
         {galleryImages.map((image,index)=>(
           <div className="app__gallery-images_card flex__center" key={`gallery_image-${index + 1}`} > 
